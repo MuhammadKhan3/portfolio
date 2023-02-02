@@ -90,6 +90,7 @@ const Navbar = () => {
                         <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                           <FaGithub/>
                         </div>
+{/*  */}
                         <div className=" rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                           <AiOutlineMail/>
                         </div>
