@@ -6,6 +6,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import Link from "next/link";
 import {HiOutlineChevronDoubleUp} from 'react-icons/hi'
+import { ParticlesContainer } from "./config/particlesBackground";
 const Contact = () => {
   return (
     <div id='contact' className="w-full lg:h-screen">

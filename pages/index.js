@@ -7,6 +7,8 @@ import Navbar from '../components/navbar'
 import Projects from '../components/projects'
 import Skills from '../components/skill'
 import styles from '../styles/Home.module.css'
+import { ParticlesContainer } from '../components/config/particlesBackground'
+
 
 export default function Home() {
   return (

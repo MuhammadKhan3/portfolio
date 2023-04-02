@@ -2,9 +2,14 @@ import React from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
+import Particles from 'react-particles'
+import configParticle from './config/particleConfig'
+import { ParticlesContainer } from './config/particlesBackground'
 
 const Main = () => {
   return (
+    <>
+    <ParticlesContainer/> 
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] h-full mx-auto p-2 flex justify-center items-center'>
             <div>
@@ -34,6 +39,7 @@ const Main = () => {
             </div>
         </div>
     </div>
+    </>
   )
 }
 
