@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Invy from '../public/assets/images/inyx/inyx7.PNG'
 import orgo from '../public/assets/images/orgo/orgo7.PNG'
-import population from '../public/assets/images/population/project1.PNG'
+import population from '../public/assets/images/population/project1.png'
 import newspitara from '../public/assets/images/newpitara/project1.PNG'
 import pos from '../public/assets/images/pos/project2.PNG'
 
