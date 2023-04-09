@@ -1,6 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 import html from '../public/assets/skills/html.png'
+import css from '../public/assets/skills/css.png'
+import javascript from '../public/assets/skills/javascipt.png'
+import tailwindCss from '../public/assets/skills/tailwind.png'
+import react from '../public/assets/skills/react.png'
+import nodejs from '../public/assets/skills/node.png'
+import mysql from '../public/assets/skills/mysql.png'
+import mongodb from '../public/assets/skills/mongodb.png'
 
 const Skills = () => {
   return (
@@ -22,7 +29,7 @@ const Skills = () => {
                 <div  className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  cursor-pointer'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/css.png' alt='css' width='64' height='64'/>
+                            <Image src={css} alt='css' width='64' height='64'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>CSS</h3>
@@ -32,7 +39,7 @@ const Skills = () => {
                 <div  className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/javascipt.png' alt='javascript' width='64' height='64'/>
+                            <Image src={javascript} alt='javascript' width='64' height='64'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>JAVASCRIPT</h3>
@@ -42,7 +49,7 @@ const Skills = () => {
                 <div  className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/tailwind.png' alt='tailwindcss' width='64' height='64'/>
+                            <Image src={tailwindCss} alt='tailwindcss' width='64' height='64'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>TAILWINDCSS</h3>
@@ -52,7 +59,7 @@ const Skills = () => {
                 <div  className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300  cursor-pointer'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/react.png' alt='react' width='64' height='64'/>
+                            <Image src={react} alt='react' width='64' height='64'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>REACT</h3>
@@ -62,7 +69,7 @@ const Skills = () => {
                 <div  className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/node.png' alt='nodejs' width='64' height='64'/>
+                            <Image src={nodejs} alt='nodejs' width='64' height='64'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>Node JS</h3>
@@ -73,7 +80,7 @@ const Skills = () => {
                 <div  className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/mysql.png' alt='mysql' width='64' height='64'/>
+                            <Image src={mysql} alt='mysql' width='64' height='64'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>MY SQL</h3>
@@ -83,7 +90,7 @@ const Skills = () => {
                 <div  className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 cursor-pointer'>
                     <div className='grid grid-cols-2 gap-4 justify-center items-center'>
                         <div className='m-auto'>
-                            <Image src='/../public/assets/skills/mongodb.png' alt='mongodb' width='150' height='64'/>
+                            <Image src={mongodb} alt='mongodb' width='150' height='64'/>
                         </div>
                         <div className='flex flex-col items-center justify-center'>
                             <h3>MONGO DB</h3>
