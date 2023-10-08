@@ -26,24 +26,30 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Name Here</h2>
+                <h2 className="py-2">Muhammad Ahmad Kha</h2>
                 <p className="">Full Stack Developer</p>
                 <p className="py-2">
-                  I am available for freelance of full-time positions. Contact me
-                  and let&apos;s talk
+                   I excel in the art of crafting projects and offering strategic consultancy. Don't hesitate to get in touch; let's initiate a conversation that will transform your vision into remarkable achievements.
                 </p>
               </div>
               <div>
                 <p className="uppercase pt-8">Connect With me</p>
                 <div className="flex items-center justify-between py-4">
                   <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedinIn />
+                    
+                    <a target="_blank" href="https://www.linkedin.com/in/muhammad-ahmad-khan-63b5b8215">
+                      <FaLinkedinIn />
+                    </a>
                   </div>
                   <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
+                    <a href="https://github.com/MuhammadKhan3">
+                      <FaGithub />
+                    </a>
                   </div>
                   <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
+                    <a href="mailto:muhammadkh303@gmail.com">
+                      <AiOutlineMail />
+                    </a>
                   </div>
                   <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                     <BsFillPersonLinesFill />
