@@ -9,12 +9,14 @@ const About = () => {
             <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
             <h2 className='py-4'>Who I Am</h2>
             <p className='py-2 text-gray-600'>
-               Muhammad Ahmad, with three years of full-stack development experience, possesses a versatile skill set encompassing HTML, CSS, JavaScript, Python, PHP, React, Node.js, Express.js, MySQL, and ORM Sequelize. Currently, he's actively involved in creating innovative solutions, such as the Axe Games HRMS, POS system, PDF editor applications, and a cutting-edge chatbot.
+               Muhammad Ahmad, with three years of full-stack development experience, possesses a versatile skill set encompassing HTML, CSS, JavaScript, Python, PHP, React, Node.js, Express.js, MySQL, and ORM Sequelize. Currently, he&apos;s actively involved in creating innovative solutions, such as the Axe Games HRMS, POS system, PDF editor applications, and a cutting-edge chatbot.
             </p>
             <p className='py-2 text-gray-600'>
-               In the world of software development, Muhammad Ahmad is the architect of tomorrow's solutions, weaving technology into powerful tools that shape the future.
+               In the world of software development, Muhammad Ahmad is the architect of tomorrow&lsquo;s solutions, weaving technology into powerful tools that shape the future.
             </p>
-            <p>"Great developers are those who can imagine the unimaginable and then bring it to life with code." - Muhammad Ahmad</p>
+            <p>
+               "Great developers are those who can imagine the unimaginable and then bring it to life with code." - Muhammad Ahmad
+            </p>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
                 Check out some of my latest projects
             </p>
