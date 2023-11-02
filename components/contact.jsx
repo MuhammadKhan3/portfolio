@@ -26,10 +26,10 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Muhammad Ahmad Kha</h2>
+                <h2 className="py-2">Muhammad Ahmad Khan</h2>
                 <p className="">Full Stack Developer</p>
                 <p className="py-2">
-                   I excel in the art of crafting projects and offering strategic consultancy. Don't hesitate to get in touch; let's initiate a conversation that will transform your vision into remarkable achievements.
+                   I excel in the art of crafting projects and offering strategic consultancy. Do not hesitate to get in touch; lets initiate a conversation that will transform your vision into remarkable achievements.
                 </p>
               </div>
               <div>
