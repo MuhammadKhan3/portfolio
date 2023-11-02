@@ -37,17 +37,17 @@ const Contact = () => {
                 <div className="flex items-center justify-between py-4">
                   <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                     
-                    <a target="_blank" href="https://www.linkedin.com/in/muhammad-ahmad-khan-63b5b8215">
+                    <a   rel="noopener noreferrer" target="_blank" href="https://www.linkedin.com/in/muhammad-ahmad-khan-63b5b8215">
                       <FaLinkedinIn />
                     </a>
                   </div>
                   <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a href="https://github.com/MuhammadKhan3">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/MuhammadKhan3">
                       <FaGithub />
                     </a>
                   </div>
                   <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a href="mailto:muhammadkh303@gmail.com">
+                    <a target="_blank" rel="noopener noreferrer" href="mailto:muhammadkh303@gmail.com">
                       <AiOutlineMail />
                     </a>
                   </div>

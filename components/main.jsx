@@ -5,6 +5,7 @@ import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import Particles from 'react-particles'
 import configParticle from './config/particleConfig'
 import { ParticlesContainer } from './config/particlesBackground'
+import Link from 'next/link'
 
 const Main = () => {
   return (
@@ -21,18 +22,18 @@ const Main = () => {
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
                            
-                            <a  target="_blank" href="https://www.linkedin.com/in/muhammad-ahmad-khan-63b5b8215" className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <a rel="noopener noreferrer"  target="_blank" href="https://www.linkedin.com/in/muhammad-ahmad-khan-63b5b8215" className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                               <FaLinkedinIn/>
-                            </a >
-                            <a href="https://github.com/MuhammadKhan3" className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                            </a>
+                            <a rel="noopener noreferrer" target="_blank" href="https://github.com/MuhammadKhan3" className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                               <FaGithub/>
                             </a>
-                            <a href="mailto:muhammadkh303@gmail.com" className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <a rel="noopener noreferrer" target="_blank" href="mailto:muhammadkh303@gmail.com" className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                               <AiOutlineMail/>
                             </a>
-                            <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                            <a rel="noopener noreferrer" target="_blank" className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                               <BsFillPersonLinesFill/>
-                            </div>
+                            </a>
                 </div>
             </div>
         </div>
