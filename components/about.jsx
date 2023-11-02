@@ -15,7 +15,7 @@ const About = () => {
                In the world of software development, Muhammad Ahmad is the architect of tomorrow&lsquo;s solutions, weaving technology into powerful tools that shape the future.
             </p>
             <p>
-               "Great developers are those who can imagine the unimaginable and then bring it to life with code." - Muhammad Ahmad
+               Great developers are those who can imagine the unimaginable and then bring it to life with code. - Muhammad Ahmad
             </p>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
                 Check out some of my latest projects
