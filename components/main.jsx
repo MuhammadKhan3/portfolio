@@ -17,18 +17,19 @@ const Main = () => {
                 <h1 className='py-2 text-gray-700'>Hi, I&apos;m<span className='text-[#5651e5]'> Ahmad</span></h1>
                 <h1 className='py-2 text-gray-700'>A Full Stack Web Developer</h1>
                 <p className='py-4 text-gray-600  max-w-[70%] m-auto'>
-                    I&apos;m Muhammad Ahmad, a seasoned full-stack developer, forges immersive digital experiences with a formidable toolkit encompassing HTML, CSS, 3 year experience
+                    I&apos;m Muhammad Ahmad, a seasoned full-stack developer, forges immersive digital experiences with a formidable toolkit encompassing 3 year experience
                 </p>
                 <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-                           <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                           
+                            <a  target="_blank" href="https://www.linkedin.com/in/muhammad-ahmad-khan-63b5b8215" className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                               <FaLinkedinIn/>
-                            </div>
-                            <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                            </a >
+                            <a href="https://github.com/MuhammadKhan3" className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                               <FaGithub/>
-                            </div>
-                            <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
+                            </a>
+                            <a href="mailto:muhammadkh303@gmail.com" className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                               <AiOutlineMail/>
-                            </div>
+                            </a>
                             <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
                               <BsFillPersonLinesFill/>
                             </div>
