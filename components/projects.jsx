@@ -7,7 +7,6 @@ import realState from "../public/assets/images/realState/2.PNG";
 import azuki from "../public/assets/images/azuki/azuki.PNG";
 import pdfGen from "../public/assets/images/pdf signature/2.PNG";
 import SignatureOne from "../public/assets/images/pdf signature/one.png";
-// import pdfGen from "../public/assets/images/pdf signature/2.PNG";
 
 import ProjectItem from "./projectItem";
 const Projects = () => {
