@@ -44,7 +44,7 @@ const Projects = () => {
             title="Hrms Project"
             backgroundimage={hrms}
             skill="reactjs,node js,express js"
-            url="/hrms"
+            url={`https://baksh-hr-muhammadkhan3s-projects.vercel.app`}
           />
 
           {/* <ProjectItem
