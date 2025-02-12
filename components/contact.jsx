@@ -35,7 +35,7 @@ const Contact = () => {
                   achievements.
                 </p>
               </div>
-              <div>
+              {/* <div>
                 <p className="uppercase pt-8">Connect With me</p>
                 <div className="flex items-center justify-between py-4">
                   <div className=" rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300">
@@ -66,7 +66,7 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* Right */}

@@ -29,7 +29,7 @@ const Main = () => {
               customized projects, I&apos;ve got the skills to deliver results.
             </p>
 
-            <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
+            {/* <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
               <a
                 rel="noopener noreferrer"
                 target="_blank"
@@ -61,7 +61,7 @@ const Main = () => {
               >
                 <BsFillPersonLinesFill />
               </a> */}
-            </div>
+            {/* </div> */}
           </div>
         </div>
       </div>
